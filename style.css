@@ -1,0 +1,237 @@
+body {
+	background-color: rgba(162, 132, 236, 0.2);
+	font-family: "Times New Roman", Times, serif;
+}
+header {
+	margin: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+.napis{
+	width: 250px;
+	padding: 10px;
+	display: inline-block;
+	float: left;
+}
+
+.Hi, .wlc, .first, .page {
+	color: #A86BF8;
+	font-weight: 700;
+	font-size: 50px;
+	display: flex;
+	justify-content: flex-start;
+}
+.Hi {
+	animation:fadeInLeft;
+	animation-duration: 0.8s
+}
+.wlc {
+	animation:fadeInLeft;
+	animation-duration: 1.8s
+}
+.first, .page  {
+	animation:fadeInLeft;
+	animation-duration: 2.5s
+}
+.sticker {
+	float: right;
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px;
+	animation: fadeInDown;
+	animation-duration: 2s;
+}
+.navbar {
+	border-radius: 25px;
+	background-color: #A86BF8;
+	padding: 0 7px 0 7px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.aboutme {
+	border-radius: 30px;
+	padding: 20px;
+	background-color: rgba(255, 255, 84, 0.5);
+	margin: 40px;
+	width: 60%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+.emoji{
+	margin-top: 100px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+}
+.zone {
+	cursor: pointer;
+	text-align: center;
+	margin-left: 25%;
+	font-size: 70px;
+	transition: all 0.3s linear;
+	width: 150px;
+	height: 150px;
+	animation: bounce;
+	animation-duration: 1s;
+}
+.iconp {
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+}
+.skills {
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	animation: fadeInDownBig;
+	animation-duration: 1s;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+p {
+	font-size: 20px;
+}
+.inside {
+	font-weight: bold;
+}
+.inside:hover {
+	color: #A86BF8;
+	font-weight: bold;
+	font-size: 110px;
+}
+
+
+.headSkill {
+	margin-left: 20%;
+}
+
+.progresContainer {
+	border-radius: 25px;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	background-color: rgba(255, 255, 84, 0.5);
+}
+.AllContainer {
+	width: 100%;
+	height: 500px;
+	display: inline-block;
+}
+.picturebox {
+	animation: bounceInUp;
+	animation-duration: 1s;
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+.progress {
+	width: 90%;
+	animation: backInLeft;
+	animation-duration: 1s;
+	background-color: rgba(0, 0, 0, 0.2);
+	margin: 10px
+}
+
+
+.project {
+	background-color: rgba(128, 214, 57, 0.2);
+	border-radius: 30px;
+	padding: 20px;
+	margin: 40px;
+	width: 60%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+.projects {
+	background-color: rgba(128, 214, 57, 0.2);
+	border-radius: 30px;
+	padding: 20px;
+	margin: 40px;
+	width: 90%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 100px;
+}
+.firstproject {
+	float: left;
+	width: 100%;
+	display: flex;
+	margin-left: 100px;
+	justify-content: flex-start;
+}
+
+.card, .editthis{
+	border-radius: 30px;
+}
+.description {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 250px 250px 250px;
+	height: 200px;
+	border-radius: 30px;
+	padding: 10px;
+	margin: 40px;
+	font-size: 15px;
+	margin: 10px;
+}
+#HT {
+	background-color: rgba(80, 129, 246, 0.5);
+	border-radius: 30px;
+	margin: 10px;
+
+}
+
+#CSS {
+	background-color: rgba(92, 151, 113, 0.5);
+	border-radius: 30px;
+	margin: 10px;
+}
+
+#C {
+	background-color: rgba(116, 207, 239, 0.5);
+	border-radius: 30px;
+	margin: 10px;
+}
+
+#CS {
+	background-color: rgba(247, 203, 96, 0.5);
+	border-radius: 30px;
+	margin: 10px;
+}
+
+#JS {
+	background-color: rgba(67, 69, 73, 0.5);
+	border-radius: 30px;
+	margin: 10px;
+}
+
+
+
+
+
+
+/*
+
+.about {
+	display: inline-block;
+	width: 70%;
+	height: 500px;
+}
+#face {
+	margin-top: 30px;
+}
+.allme {
+	text-align: center;
+	margin-left: 40px;
+	display: inline-block;
+	height: 250px;
+	width: 250px;
+}*/
